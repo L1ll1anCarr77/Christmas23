@@ -1,0 +1,52 @@
+/* CSS Document 
+Author: Lillian Carr
+File Name: styles.css
+Date: 11/13/2023
+*/
+
+/*CSS Reset*/
+body, html, nav, footer, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*Style rules for body and image*/
+body {
+	background-color: #c4caf2;
+}
+
+img {
+	max-width: 80%;
+	display: block;
+}
+/*Style rules for header*/
+header {
+	width: 40%;
+	float: center;
+}
+
+header p {
+	color: aquamarine;
+	background-color: none;
+	text-align: center;
+	font-size: 40px;
+}
+/*Style rules for navigation area*/
+nav {
+	width: 20%;
+	float: center;
+	margin: 3em 2em 00;
+}
+
+
+/*Style rules for footer area*/
+footer {
+	width: 40%;
+	float: bottom;
+	
+}
+
+footer p {
+	color: blue;
+	background-color: white;
+}
